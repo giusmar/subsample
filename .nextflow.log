@@ -76,3 +76,308 @@ May-19 11:45:17.475 [Task submitter] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler
 May-19 11:45:17.475 [Task submitter] INFO  nextflow.Session - [1e/07a3ad] Submitted process > subsample (10M)
 May-19 11:45:17.972 [Task submitter] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task submitted > subsample (24149_Coriell_RNA_cell) - Pipeline Id: 2210313802216130561
 May-19 11:45:17.972 [Task submitter] INFO  nextflow.Session - [22/f550b5] Submitted process > subsample (24149_Coriell_RNA_cell)
+May-19 11:50:20.945 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 11:55:20.949 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:00:20.953 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:05:20.958 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:10:20.963 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:15:20.968 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:20:20.972 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:25:20.981 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:30:20.984 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 9 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:33:51.341 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (12878_Coriell_RNA_Cell) - Start Time: 2023-05-19T09:45:31.824317955Z - End Time: 2023-05-19T10:33:50.288287141Z
+May-19 12:33:51.583 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: subsample (12878_Coriell_RNA_Cell); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/9f/c2e8d0970bea1b26577ba9b2f4712d]
+May-19 12:33:53.277 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-19 12:35:20.988 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 8 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 6; name: subsample (9M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+~> TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:36:11.884 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (24149_Coriell_RNA_cell) - Start Time: 2023-05-19T09:45:31.824986688Z - End Time: 2023-05-19T10:36:08.862847604Z
+May-19 12:36:12.170 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: subsample (24149_Coriell_RNA_cell); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/22/f550b53620e83a6fcbe932a56321a0]
+May-19 12:37:01.521 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (9M) - Start Time: 2023-05-19T09:45:31.826723719Z - End Time: 2023-05-19T10:36:51.851229695Z
+May-19 12:37:01.767 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: subsample (9M); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/91/b2bdde87f1bf128f84399bcf36d99b]
+May-19 12:40:20.993 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 12:45:20.994 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 12:50:21.000 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 12:55:21.004 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:00:21.008 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:05:21.014 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:10:21.024 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:15:21.034 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:20:21.043 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:25:21.052 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:30:21.065 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:35:21.078 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 6 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 3; name: subsample (3M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:37:11.551 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (3M) - Start Time: 2023-05-19T09:45:31.826455853Z - End Time: 2023-05-19T11:37:03.691752670Z
+May-19 13:37:11.973 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: subsample (3M); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/cf24420845984c7f9580ab7357b421]
+May-19 13:40:21.097 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 5 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:45:21.108 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 5 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:50:21.122 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 5 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 4; name: subsample (6M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+~> TaskHandler[id: 2; name: subsample (2M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 13:53:31.685 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (2M) - Start Time: 2023-05-19T09:45:31.826609700Z - End Time: 2023-05-19T11:53:23.072912193Z
+May-19 13:53:31.968 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: subsample (2M); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/07/adfe727eae947fc9e47fa98f138b9d]
+May-19 13:55:11.545 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (6M) - Start Time: 2023-05-19T09:45:31.825285166Z - End Time: 2023-05-19T11:55:02.162168427Z
+May-19 13:55:11.948 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: subsample (6M); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/ab88fd0341f84342289f9a8ecdece6]
+May-19 13:55:21.134 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 3 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 14:00:21.147 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 3 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 14:05:21.161 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 3 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+~> TaskHandler[id: 7; name: subsample (10M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 14:07:11.581 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (10M) - Start Time: 2023-05-19T09:45:31.826777368Z - End Time: 2023-05-19T12:07:04.049713158Z
+May-19 14:07:11.892 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: subsample (10M); status: COMPLETED; exit: 0; error: -; workDir: gs://ngdx-scratch-west1/tmp/1e/07a3ad9a3735baed8b7a7fea7ad916]
+May-19 14:10:21.178 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:15:21.196 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:20:21.206 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:25:21.222 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:30:21.240 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:35:21.257 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:40:21.275 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:45:21.286 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:50:21.301 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 14:55:21.311 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 15:00:21.318 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 15:05:21.325 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor google-lifesciences > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: subsample (8M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/ae/1bb91cc29ed697f86e5f9c0bb17bbc]
+~> TaskHandler[id: 1; name: subsample (1M); status: RUNNING; exit: -; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 15:07:11.617 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Task complete > subsample (1M) - Start Time: 2023-05-19T09:45:31.825176839Z - End Time: 2023-05-19T13:07:03.593528064Z
+May-19 15:07:11.863 [Task monitor] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Cannot read exitstatus for task: `subsample (1M)` | For input string: ""
+May-19 15:07:11.863 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: subsample (1M); status: COMPLETED; exit: 9; error: -; workDir: gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf]
+May-19 15:07:11.879 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=subsample (1M); work-dir=gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf
+  error [nextflow.exception.ProcessFailedException]: Process `subsample (1M)` terminated with an error exit status (9)
+May-19 15:07:11.962 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'subsample (1M)'
+
+Caused by:
+  Process `subsample (1M)` terminated with an error exit status (9)
+
+Command executed:
+
+  /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 1M_R1.fq.gz 50000000 > 1M_R1_sub.fq
+  /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 1M_R2.fq.gz 50000000 > 1M_R2_sub.fq
+
+Command exit status:
+  9
+
+Command output:
+  (empty)
+
+Command error:
+  Execution failed: generic::failed_precondition: while running "nf-5df12924f14ef65cfb8c6eb75d7daddf-main": unexpected exit status 1 was not ignored
+
+Work dir:
+  gs://ngdx-scratch-west1/tmp/5d/f12924f14ef65cfb8c6eb75d7daddf
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+May-19 15:07:12.087 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `subsample (1M)` terminated with an error exit status (9)
+May-19 15:07:12.113 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-19 15:07:12.113 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-19 15:07:12.127 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (1)
+May-19 15:07:12.134 [main] DEBUG n.c.g.l.GoogleLifeSciencesTaskHandler - [GLS] Killing task > subsample (8M) - Pipeline Id: 1245683761715174690
+May-19 15:07:12.245 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=7; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=1; succeedDuration=6h 48m 56s; failedDuration=3h 21m 49s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=9; peakCpus=9; peakMemory=0; ]
+May-19 15:07:12.647 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-19 15:07:12.648 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-tower@1.5.12'
+May-19 15:07:12.648 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-tower
+May-19 15:07:12.648 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-google@1.7.3'
+May-19 15:07:12.648 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-google
+May-19 15:07:12.661 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
