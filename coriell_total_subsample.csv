@@ -1,0 +1,9 @@
+1M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/1M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/1M_R2.fq.gz,forward,50000000
+2M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/2M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/2M_R2.fq.gz,forward,50000000
+3M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/3M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/3M_R2.fq.gz,forward,50000000
+6M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/6M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/6M_R2.fq.gz,forward,50000000
+8M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/8M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/8M_R2.fq.gz,forward,50000000
+9M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/9M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/9M_R2.fq.gz,forward,50000000
+10M,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/10M_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/10M_R2.fq.gz,forward,50000000
+12878_Coriell_RNA_Cell,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/12878_Coriell_RNA_Cell_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/12878_Coriell_RNA_Cell_R2.fq.gz,forward,50000000
+24149_Coriell_RNA_cell,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/24149_Coriell_RNA_cell_R1.fq.gz,gs://ngdx-runs/Analysis/Other/230330_HNC2CDSX5_Coriell_total/Reads/24149_Coriell_RNA_cell_R2.fq.gz,forward,50000000

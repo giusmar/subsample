@@ -1,6 +1,6 @@
-reads = Channel.from( params.input )
+reads = Channel.fromPath( params.input )
                 .splitCsv( header:false, sep:',' )
-                ..map ({ row-> tuple(row.sample, row.fastq_1, row.fastq_2, row.strand, row.downsize })
+                .map( { row -> [sample = row[0], fastq_1 = row[1], fastq_2 = row[2], strand = row[3], downsize = row[4]] } )
 
 process subsample {
     debug true
@@ -17,8 +17,8 @@ process subsample {
 
     script:
     """
-    /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 $ $fastq_1 > ${sample}_R1_sub.fq
-    /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 $ $fastq_2 > ${sample}_R2_sub.fq
+    /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 $fastq_1 $downsize > ${sample}_R1_sub.fq
+    /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 $fastq_2 $downsize > ${sample}_R2_sub.fq
     """
     
 }
