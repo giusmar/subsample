@@ -13,12 +13,13 @@ process subsample {
     tuple val(sample), path(fastq_1), path(fastq_2), val(strand), val(downsize)
 
     output:
-    tuple val(sample), path("*R1_sub*"), path("*R2_sub*")
+    tuple val(sample), path("*R1_sub.fq.gz"), path("*R2_sub.fq.gz")
 
     script:
     """
-    /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 $fastq_1 $downsize > ${sample}_R1_sub.fq
-    /SARS-CoV-2_Multi-PCR_v1.0/tools/seqtk sample -s100 $fastq_2 $downsize > ${sample}_R2_sub.fq
+    seqtk sample -s100 $fastq_1 $downsize > ${sample}_R1_sub.fq
+    seqtk sample -s100 $fastq_2 $downsize > ${sample}_R2_sub.fq
+    pigz *.fq
     """
     
 }
